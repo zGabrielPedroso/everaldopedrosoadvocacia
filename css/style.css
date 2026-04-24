@@ -2001,4 +2001,7 @@ h1, h2, h3, h4, h5, h6,
 .blog-placeholder-card__expanded {
   height: auto;
   min-height: 0;
+.differentials__header p {
+  text-align: justify !important;
+  text-align-last: center !important;
 }
