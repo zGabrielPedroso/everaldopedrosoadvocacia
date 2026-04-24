@@ -1819,11 +1819,17 @@ h1, h2, h3, h4, h5, h6,
 .team-section-header {
   text-align: center;
 }
-.differentials__header p,
 .areas__header p,
 .process__header p,
 .cta-section__subtitle {
   text-align: center;
+}
+
+/* Corrigir apenas Diferenciais */
+.differentials__header p {
+  text-align: justify;
+  text-align-last: center;
+  hyphens: auto;
 }
 
 /* ── 2) ABA "O ESCRITÓRIO" — ALINHAMENTO DOS CARDS DE EQUIPE ── */
