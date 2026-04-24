@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Everaldo Pedroso Advocacia | Direito Civil, Imobiliário, Família e Sucessões em Curitiba</title>
+  <meta name="description" content="Escritório de advocacia em Curitiba com atuação em Direito Civil, regularização de imóveis, família, sucessões, contratos e assessoria patrimonial." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Everaldo Pedroso Advocacia" />
+  <meta property="og:description" content="Assessoria jurídica especializada em Direito Civil, regularização patrimonial, família e sucessões. Curitiba/PR." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://everaldopedroso.adv.br/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  NAVBAR                                                  ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<div id="fraudModal" class="fraud-modal" aria-hidden="true" role="dialog" aria-labelledby="fraud-modal-title">
+  <div class="fraud-modal__backdrop" data-close-fraud></div>
+  <div class="fraud-modal__dialog" role="document">
+    <button class="fraud-modal__close" type="button" aria-label="Fechar aviso" data-close-fraud>&times;</button>
+    <img src="assets/equipe/Logo4.png" alt="Everaldo Pedroso Advocacia" class="fraud-modal__logo" />
+    <span class="label fraud-modal__label">Comunicado Oficial</span>
+    <h2 id="fraud-modal-title" class="fraud-modal__title">Aviso Importante aos Clientes</h2>
+    <div class="fraud-modal__content">
+      <p>Prezados clientes,</p>
+      <p>Diante das tentativas de fraudes e golpes virtuais, o escritório Everaldo Pedroso Advocacia informa que suas contas bancárias são exclusivamente aquelas indicadas nos contratos.</p>
+      <p>Eventuais pedidos para pagamento de guias de custas processuais e/ou cartorárias sempre ocorrerão através dos nossos canais oficiais de atendimento.</p>
+      <p>Pedimos que não forneçam quaisquer dados pessoais ou realizem pagamentos a pedido de contatos desconhecidos, nem mesmo se tiver como foto de perfil a logo do escritório ou a foto de um de nossos advogados.</p>
+      <p>Em caso de dúvidas, pedimos que entrem em contato exclusivamente pelo telefone <strong>41 3024-0407</strong>.</p>
+    </div>
+    <div class="fraud-modal__actions">
+      <button class="btn btn--primary" type="button" data-close-fraud>Entendi</button>
+    </div>
+  </div>
+</div>
+
+<header id="navbar" class="navbar" role="banner">
+  <div class="navbar__inner">
+    <!-- Logo -->
+    <a href="#home" data-page="home" class="navbar__logo" aria-label="Everaldo Pedroso Advocacia — Página inicial">
+      <img src="assets/equipe/logo.png" alt="Everaldo Pedroso Advocacia" class="navbar__logo-img" />
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="navbar__nav" role="navigation" aria-label="Menu principal">
+      <a href="#home" data-page="home" class="navbar__link active">Home</a>
+      <a href="#escritorio" data-page="escritorio" class="navbar__link">O Escritório</a>
+      <a href="#areas" data-page="areas" class="navbar__link">Áreas de Atuação</a>
+      <a href="#blog" data-page="blog" class="navbar__link">Conteúdo</a>
+      <a href="#contato" data-page="contato" class="navbar__link">Contato</a>
+      <a href="https://wa.me/5541991237550?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn--primary navbar__cta" aria-label="Falar no WhatsApp">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        WhatsApp
+      </a>
+    </nav>
+
+    <!-- Hamburger -->
+    <button id="hamburger" class="navbar__hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <nav id="mobileMenu" class="navbar__mobile-menu" aria-label="Menu mobile">
+    <a href="#home" data-page="home" class="navbar__mobile-link">Home</a>
+    <a href="#escritorio" data-page="escritorio" class="navbar__mobile-link">O Escritório</a>
+    <a href="#areas" data-page="areas" class="navbar__mobile-link">Áreas de Atuação</a>
+    <a href="#blog" data-page="blog" class="navbar__mobile-link">Conteúdo</a>
+    <a href="#contato" data-page="contato" class="navbar__mobile-link">Contato</a>
+    <a href="https://wa.me/55541991237550?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn--primary navbar__mobile-cta">Falar pelo WhatsApp</a>
+  </nav>
+</header>
+
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  PAGE: HOME                                              ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<main id="page-home" class="page active" role="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__accent" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <div class="hero__main">
+        <div class="hero__eyebrow animate-up">
+          <span class="hero__eyebrow-line" aria-hidden="true"></span>
+          <span class="hero__eyebrow-text">Advocacia Especializada • Curitiba / PR</span>
+        </div>
+
+        <h1 id="hero-title" class="hero__title animate-up delay-1">
+          Segurança jurídica<br />
+          para o que <em>realmente</em><br />
+          importa para você.
+        </h1>
+
+        <p class="hero__subtitle animate-up delay-2">
+          Nosso escritório atua em todas as áreas e especialidades do Direito Civil, tais como, mas não limitadas, a Direito das Pessoas, dos Bens, dos Fatos Jurídicos, das Obrigações, de Empresa, das Coisas, de Família e das Sucessões.
+
+Dentro dessas áreas, atuamos tanto no atendimento ao litígio quanto na prevenção, priorizando o melhor e mais célere resultado ao cliente.
+
+Nossa atuação é pautada na premissa de que “o Advogado é o primeiro Juiz da causa”. Por isso, os atendimentos do escritório são pautados em aprofundados estudos de caso, a fim de apresentar ao consulente a melhor solução possível para a sua demanda.
+        </p>
+
+        <div class="hero__actions animate-up delay-3">
+          <a href="#contato" data-page="contato" class="btn btn--primary btn--lg">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.06 6.06l1.27-.83a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Agendar Consulta
+          </a>
+          <a href="#areas" data-page="areas" class="btn btn--outline-light btn--lg">
+            Áreas de Atuação
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__stats animate-up delay-4" aria-label="Dados do escritório">
+        <div class="hero__stat-item">
+          <div class="hero__stat-num" aria-label="Mais de 10 anos">10+</div>
+          <div class="hero__stat-label">Anos de Experiência</div>
+        </div>
+        <div class="hero__stat-item">
+          <div class="hero__stat-num" aria-label="Centenas de clientes">500+</div>
+          <div class="hero__stat-label">Clientes Atendidos</div>
+        </div>
+        <div class="hero__stat-item">
+          <div class="hero__stat-num" aria-label="Seis áreas de atuação">20+</div>
+          <div class="hero__stat-label">Áreas de Atuação</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-text">Rolar</span>
+      <span class="hero__scroll-arrow"></span>
+    </div>
+  </section>
+
+  <!-- INFO STRIP -->
+  <div class="info-strip" role="complementary" aria-label="Informações de contato rápido">
+    <div class="info-strip__inner">
+      <div class="info-strip__item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Curitiba, Paraná
+      </div>
+      <div class="info-strip__item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        OAB/PR Nº 82.734
+      </div>
+      <div class="info-strip__item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.06 6.06l1.27-.83a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        <a href="tel:+554130240407" style="color:inherit;">(41) 3024-0407</a>
+      </div>
+      <div class="info-strip__item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="mailto:contato@everaldopedroso.adv.br" style="color:inherit;">contato@everaldopedroso.adv.br</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOBRE (RESUMO HOME) -->
+  <section class="about-home section" aria-labelledby="about-title-home">
+    <div class="container">
+      <div class="about-home__grid">
+        <div class="about-home__visual" data-reveal>
+          <div class="about-home__img-wrap">
+            <div class="about-home__img-placeholder about-home__carousel" aria-label="Fotos do escritório">
+              <button type="button" class="about-home__carousel-btn about-home__carousel-btn--prev" aria-label="Foto anterior">&#10094;</button>
+              <div class="about-home__carousel-track">
+                <img src="assets/escritorio/reuniao.jpg" alt="Sala de reunião do escritório" class="about-home__img-photo active">
+                <img src="assets/escritorio/fachada.jpg" alt="Identidade visual do escritório" class="about-home__img-photo">
+                <img src="assets/escritorio/escritorio-1.jpg" alt="Ambiente interno do escritório" class="about-home__img-photo">
+                <img src="assets/escritorio/escritorio-2.jpg" alt="Biblioteca jurídica do escritório" class="about-home__img-photo">
+                <img src="assets/escritorio/escritorio-3.jpg" alt="Estrutura do escritório Everaldo Pedroso" class="about-home__img-photo">
+              </div>
+              <button type="button" class="about-home__carousel-btn about-home__carousel-btn--next" aria-label="Próxima foto">&#10095;</button>
+            </div>
+          </div>
+          <div class="about-home__badge" aria-label="Mais de 15 anos de experiência">
+            <span class="about-home__badge-num">10+</span>
+            <span class="about-home__badge-text">anos de atuação</span>
+          </div>
+        </div>
+
+        <div class="about-home__text" data-reveal data-reveal-delay="2">
+          <span class="label">O Escritório</span>
+          <span class="gold-line" aria-hidden="true"></span>
+          <h2 id="about-title-home" class="heading-1" style="margin-bottom:1.5rem;">
+            Advocacia com profundidade técnica e atenção real às suas necessidades.
+          </h2>
+          <p>
+            O escritório Everaldo Pedroso Advocacia atua com foco em Direito Civil, oferecendo assessoria especializada para pessoas físicas e empresas que enfrentam questões patrimoniais, familiares, sucessórias e contratuais.
+          </p>
+          <p>
+            Com sede em Curitiba, o escritório combina rigor técnico com atendimento próximo: cada caso é tratado de forma individualizada, com estratégia clara, comunicação transparente e comprometimento com resultados concretos.
+          </p>
+          <p>
+            Atuamos tanto na prevenção de conflitos — por meio de planejamento e assessoria preventiva — quanto na resolução de litígios, sempre com a ética e a seriedade que a advocacia exige.
+          </p>
+          <a href="#escritorio" data-page="escritorio" class="btn btn--outline-navy" style="margin-top:0.5rem;">
+            Conheça o escritório
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="differentials section" aria-labelledby="diff-title">
+    <div class="container">
+      <div class="differentials__header" data-reveal>
+        <span class="label" style="color:var(--gold-light);">Por que nos escolher</span>
+        <span class="gold-line gold-line--center" aria-hidden="true"></span>
+        <h2 id="diff-title" class="heading-1" style="color:var(--white);">Diferenciais que fazem a diferença</h2>
+        <p class="body-lg">O que nos distingue não é apenas o conhecimento técnico — é a forma como aplicamos esse conhecimento ao serviço de cada cliente.</p>
+      </div>
+
+      <div class="differentials__grid">
+        <article class="diff-card" data-reveal data-reveal-delay="1">
+          <div class="diff-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3 class="diff-card__title">Especialização Real</h3>
+          <p class="diff-card__text">Atuação concentrada em Direito Civil e áreas correlatas. Especialização não é slogan aqui — é o que garante profundidade de análise e soluções mais precisas.</p>
+        </article>
+
+        <article class="diff-card" data-reveal data-reveal-delay="2">
+          <div class="diff-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3 class="diff-card__title">Atendimento Personalizado</h3>
+          <p class="diff-card__text">Cada cliente tem acesso direto ao advogado responsável pelo seu caso. Sem intermediários, sem respostas automáticas, sem tratamento genérico.</p>
+        </article>
+
+        <article class="diff-card" data-reveal data-reveal-delay="3">
+          <div class="diff-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6s0-1 1-1h6l2 5-3 2s1 3 3 5 5 3 5 3l2-3 5 2v6s-1 1-1 1C5 24 1 6 1 6z"/></svg>
+          </div>
+          <h3 class="diff-card__title">Comunicação Clara</h3>
+          <p class="diff-card__text">Traduzimos o jurídico para uma linguagem que você compreende. Você sempre saberá o que está acontecendo no seu processo e por quê.</p>
+        </article>
+
+        <article class="diff-card" data-reveal data-reveal-delay="4">
+          <div class="diff-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="diff-card__title">Atuação Preventiva</h3>
+          <p class="diff-card__text">Identificamos riscos antes que se tornem problemas. Uma boa assessoria preventiva costuma evitar conflitos muito mais caros e desgastantes.</p>
+        </article>
+
+        <article class="diff-card" data-reveal data-reveal-delay="5">
+          <div class="diff-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
+          </div>
+          <h3 class="diff-card__title">Ética sem Concessões</h3>
+          <p class="diff-card__text">Trabalhamos com expectativas realistas. Não prometemos resultados que não podemos garantir — oferecemos estratégia consistente e comprometimento genuíno.</p>
+        </article>
+
+        <article class="diff-card" data-reveal data-reveal-delay="6">
+          <div class="diff-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="diff-card__title">Resposta Ágil</h3>
+          <p class="diff-card__text">Prazos jurídicos são críticos. Nosso compromisso com a eficiência garante que nenhum prazo seja perdido e que seu caso avance no ritmo certo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS DE ATUAÇÃO (HOME CARDS) -->
+  <section class="areas section" aria-labelledby="areas-title-home">
+    <div class="container">
+      <div class="areas__header" data-reveal>
+        <span class="label">Especialidades</span>
+        <span class="gold-line gold-line--center" aria-hidden="true"></span>
+        <h2 id="areas-title-home" class="heading-1">Áreas de Atuação</h2>
+        <p class="body-lg">Atuamos nas principais frentes do Direito Civil, com conhecimento técnico aprofundado e experiência prática consolidada.</p>
+      </div>
+
+      <div class="areas__grid">
+        <a href="#areas" data-page="areas" class="area-card" data-reveal data-reveal-delay="1">
+          <div class="area-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 class="area-card__title">Regularização de Imóveis</h3>
+          <p class="area-card__text">Usucapião, registro de imóveis, regularização de edificações e transmissão de propriedade de forma segura e definitiva.</p>
+          <span class="area-card__link">Ver mais <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+
+        <a href="#areas" data-page="areas" class="area-card" data-reveal data-reveal-delay="2">
+          <div class="area-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <h3 class="area-card__title">Direito de Família</h3>
+          <p class="area-card__text">Divórcio, guarda, alimentos, reconhecimento de paternidade e acordos extrajudiciais com foco na preservação dos vínculos e bem-estar familiar.</p>
+          <span class="area-card__link">Ver mais <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+
+        <a href="#areas" data-page="areas" class="area-card" data-reveal data-reveal-delay="3">
+          <div class="area-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+          </div>
+          <h3 class="area-card__title">Sucessões e Inventário</h3>
+          <p class="area-card__text">Planejamento sucessório, inventários judiciais e extrajudiciais, testamentos e partilha de bens com segurança jurídica e eficiência.</p>
+          <span class="area-card__link">Ver mais <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+
+        <a href="#areas" data-page="areas" class="area-card" data-reveal data-reveal-delay="4">
+          <div class="area-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3 class="area-card__title">Contratos e Obrigações</h3>
+          <p class="area-card__text">Elaboração, revisão e análise de contratos civis e empresariais. Assessoria em descumprimento contratual, rescisões e negociações.</p>
+          <span class="area-card__link">Ver mais <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+
+        <a href="#areas" data-page="areas" class="area-card" data-reveal data-reveal-delay="5">
+          <div class="area-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+          </div>
+          <h3 class="area-card__title">Direito Empresarial</h3>
+          <p class="area-card__text">Constituição e dissolução de sociedades, alterações contratuais, responsabilidade de sócios e litígios societários.</p>
+          <span class="area-card__link">Ver mais <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+
+        <a href="#areas" data-page="areas" class="area-card" data-reveal data-reveal-delay="6">
+          <div class="area-card__icon" aria-hidden="true">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3 class="area-card__title">Direito Civil Geral</h3>
+          <p class="area-card__text">Responsabilidade civil, indenizações, direitos de personalidade, relações entre pessoas e demais questões civis não categorizadas acima.</p>
+          <span class="area-card__link">Ver mais <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+      </div>
+
+      <div style="text-align:center; margin-top:3rem;" data-reveal>
+        <a href="#areas" data-page="areas" class="btn btn--outline-navy btn--lg">Ver todas as áreas de atuação</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTORIDADE -->
+  <section class="authority section" aria-labelledby="authority-title">
+    <div class="container">
+      <div class="authority__grid">
+        <div class="authority__quote" data-reveal>
+          <div class="authority__quote-mark" aria-hidden="true">"</div>
+          <p class="authority__quote-text">
+            Advocacia séria é aquela que coloca os interesses do cliente acima de qualquer outro interesse — e que é honesta o suficiente para dizer quando uma causa não tem chances reais de sucesso.
+          </p>
+          <div class="authority__quote-attr">Everaldo Pedroso — OAB/PR</div>
+        </div>
+
+        <div class="authority__content" data-reveal data-reveal-delay="2">
+          <span class="label">Credibilidade e Confiança</span>
+          <span class="gold-line" aria-hidden="true"></span>
+          <h2 id="authority-title" class="heading-1">Construída caso a caso, ao longo de mais de uma década.</h2>
+          <p>O escritório tem sua reputação construída sobre resultados concretos e relações de confiança duradouras. Nossa clientela cresce principalmente por indicações — o sinal mais legítimo de satisfação.</p>
+          <p>Cada processo é tratado com a mesma atenção: da triagem inicial ao acompanhamento final, passando por uma estratégia bem definida e comunicação constante.</p>
+          <ul class="authority__list">
+            <li class="authority__list-item">
+              <svg class="authority__list-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Inscrição ativa na OAB/PR com atuação ética e responsável
+            </li>
+            <li class="authority__list-item">
+              <svg class="authority__list-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Formação jurídica sólida com especialização em Direito Civil
+            </li>
+            <li class="authority__list-item">
+              <svg class="authority__list-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Atualização contínua frente às mudanças legislativas e jurisprudenciais
+            </li>
+            <li class="authority__list-item">
+              <svg class="authority__list-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Atuação tanto preventiva quanto contenciosa, conforme a necessidade do cliente
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSO DE ATENDIMENTO -->
+  <section class="process section" aria-labelledby="process-title">
+    <div class="container">
+      <div class="process__header" data-reveal>
+        <span class="label">Como Trabalhamos</span>
+        <span class="gold-line gold-line--center" aria-hidden="true"></span>
+        <h2 id="process-title" class="heading-1">Do primeiro contato à solução do seu caso</h2>
+        <p class="body-lg">Um processo claro, transparente e orientado ao seu resultado.</p>
+      </div>
+
+      <div class="process__steps">
+        <div class="step-card" data-reveal data-reveal-delay="1">
+          <div class="step-card__num" aria-label="Passo 1">01</div>
+          <h3 class="step-card__title">Consulta Inicial</h3>
+          <p class="step-card__text">Apresente sua situação. Analisamos os fatos, identificamos riscos e respondemos às suas principais dúvidas de forma clara e objetiva.</p>
+        </div>
+
+        <div class="step-card" data-reveal data-reveal-delay="2">
+          <div class="step-card__num" aria-label="Passo 2">02</div>
+          <h3 class="step-card__title">Análise Jurídica</h3>
+          <p class="step-card__text">Avaliamos a documentação, pesquisamos precedentes e construímos uma estratégia personalizada para o seu caso.</p>
+        </div>
+
+        <div class="step-card" data-reveal data-reveal-delay="3">
+          <div class="step-card__num" aria-label="Passo 3">03</div>
+          <h3 class="step-card__title">Proposta e Contrato</h3>
+          <p class="step-card__text">Apresentamos a proposta de honorários de forma transparente. Sem surpresas: tudo formalizado e acordado antes de qualquer início de trabalho.</p>
+        </div>
+
+        <div class="step-card" data-reveal data-reveal-delay="4">
+          <div class="step-card__num" aria-label="Passo 4">04</div>
+          <h3 class="step-card__title">Acompanhamento</h3>
+          <p class="step-card__text">Atuamos com diligência e mantemos você informado em cada etapa. Você nunca ficará sem saber o que está acontecendo no seu processo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-section section" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="cta-section__inner">
+        <h2 id="cta-title" class="cta-section__title" data-reveal>
+          Tem uma questão jurídica?<br />
+          <em>Vamos conversar.</em>
+        </h2>
+        <p class="cta-section__subtitle" data-reveal data-reveal-delay="1">
+          Entre em contato para uma consulta inicial. Analisaremos seu caso com atenção e indicaremos o melhor caminho a seguir.
+        </p>
+        <div class="cta-section__actions" data-reveal data-reveal-delay="2">
+          <a href="#contato" data-page="contato" class="btn btn--primary btn--lg">Agendar Consulta</a>
+          <a href="https://wa.me/5541991237550?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            Falar pelo WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  PAGE: O ESCRITÓRIO                                      ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<main id="page-escritorio" class="page" role="main">
+
+  <div class="page-hero" aria-labelledby="escritorio-page-title">
+    <div class="page-hero__inner">
+      <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+        <a href="#home" data-page="home">Home</a>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        <span>O Escritório</span>
+      </nav>
+      <h1 id="escritorio-page-title" class="page-hero__title">O Escritório</h1>
+      <p class="page-hero__subtitle">Conheça nossa história, filosofia de atuação e o compromisso que norteia cada caso que assumimos.</p>
+    </div>
+  </div>
+
+  <section class="office-content section">
+    <div class="container">
+      <div class="office-content__grid">
+
+        <aside class="office-content__sidebar" data-reveal>
+          <div class="office-content__img" aria-label="Foto de Everaldo Santos Pedroso Junior">
+            <img src="assets/equipe/Everaldo.png" alt="Everaldo Santos Pedroso Junior" class="office-content__img-photo">
+            <div class="office-content__img-label">
+              <span class="label">Advogado Sócio Fundador</span>
+              <div class="office-content__img-name">Everaldo Santos Pedroso Junior</div>
+            </div>
+          </div>
+
+          <div class="office-content__info-card">
+            <div class="office-content__info-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              <div>
+                <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:2px;">OAB</div>
+                OAB/PR Nº 82.734
+              </div>
+            </div>
+            <div class="office-content__info-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.06 6.06l1.27-.83a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              <div>
+                <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:2px;">Telefone</div>
+                <a href="tel:+554130240407">(41) 3024-0407</a>
+              </div>
+            </div>
+            <div class="office-content__info-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:2px;">Localização</div>
+                Praça Zacarias nº 80 – 8º andar – Conjuntos 806/807 - Ed. João Alfredo - Centro - Curitiba/PR
+              </div>
+            </div>
+            <div class="office-content__info-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <div>
+                <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:2px;">E-mail</div>
+                <a href="mailto:contato@everaldopedroso.adv.br">contato@everaldopedroso.adv.br</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <article class="office-content__text" data-reveal data-reveal-delay="2">
+          <span class="label">Nossa história</span>
+          <span class="gold-line" aria-hidden="true"></span>
+          <h2 class="heading-1" style="margin-bottom:1.5rem;">Advocacia fundada na confiança, técnica e proximidade.</h2>
+
+          <p>O escritório Everaldo Pedroso Advocacia nasceu do compromisso com uma advocacia que vai além da peça processual: uma advocacia que compreende a dimensão humana de cada conflito, que ouve com atenção e que constrói soluções sob medida para cada cliente.</p>
+          <p>Com atuação em Curitiba e sede no Paraná, o escritório atende pessoas físicas e empresas que enfrentam questões civis, patrimoniais, familiares e sucessórias — áreas em que o impacto da decisão jurídica vai muito além dos autos do processo.</p>
+          <p>Ao longo de mais de dez anos, construímos uma reputação fundamentada em resultados reais e relações de confiança genuínas. Não perseguimos volume de causas, mas a qualidade do trabalho em cada uma delas.</p>
+
+          <div class="office-content__profile-card">
+            <h3 class="heading-2" style="margin-bottom:0.75rem;">Everaldo Santos Pedroso Junior</h3>
+            <ul class="office-content__credentials">
+              <li>Advogado Sócio Fundador</li>
+              <li>Graduado em Direito pela Universidade Norte do Paraná</li>
+              <li>Advogado inscrito na Ordem dos Advogados do Brasil - Seção do Paraná sob nº 82.734</li>
+              <li>Especialista em Direito Imobiliário, Notarial e Registral pela Pontifícia Universidade Católica do Paraná (PUC-PR)</li>
+              <li>Especialista em Direito Processual Civil pelo Instituto de Direito Romeu Felipe Bacellar de Curitiba</li>
+              <li>Membro da Comissão de Direito Imobiliário e da Construção da OAB/PR (2025-2027)</li>
+              <li>Membro da Comissão de Direito Notarial e das Serventias do Poder Judiciário da OAB/PR (2025-2027)</li>
+            </ul>
+          </div>
+
+          <h2 class="heading-2" style="margin-top:2.5rem; margin-bottom:1rem;">Missão e Valores</h2>
+          <p>Nossa missão vai além de prestar um serviço de excelência. Buscamos construir uma relação de confiança, respeito e lealdade com os clientes, oferecendo todo o suporte necessário para os problemas diários, mantendo-os amparados e atualizados.</p>
+          <p>Somos guiados pelos valores da transparência, ética, profissionalismo, lealdade, humanidade e cordialidade.</p>
+          <p>Contamos com uma advocacia especializada, moderna e ágil, que possibilita um diagnóstico preciso das mais diversas demandas apresentadas, sempre visando o melhor resultado para nossos clientes.</p>
+
+          <section class="office-team" aria-labelledby="office-team-title">
+            <div class="office-team__header">
+              <span class="label">Equipe</span>
+              <span class="gold-line" aria-hidden="true"></span>
+              <h2 id="office-team-title" class="heading-2" style="margin-top:0.75rem;">Advogados do escritório</h2>
+            </div>
+            <div class="office-team__grid">
+              <article class="office-team__card">
+                <div class="office-team__image-wrap">
+                  <img src="assets/equipe/Everaldo.png" alt="Everaldo Santos Pedroso Junior" class="office-team__image">
+                </div>
+                <div class="office-team__body">
+                  <span class="label">Advogado Sócio Fundador</span>
+                  <h3 class="office-team__name">Everaldo Santos Pedroso Junior</h3>
+                  <ul class="office-team__list">
+                    <li>Graduado em Direito pela Universidade Norte do Paraná</li>
+                    <li>OAB/PR nº 82.734</li>
+                    <li>Especialista em Direito Imobiliário, Notarial e Registral (PUC-PR)</li>
+                    <li>Especialista em Direito Processual Civil</li>
+                    <li>Membro da Comissão de Direito Imobiliário e da Construção da OAB/PR (2025-2027)</li>
+                    <li>Membro da Comissão de Direito Notarial e das Serventias do Poder Judiciário da OAB/PR (2025-2027)</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="office-team__card">
+                <div class="office-team__image-wrap">
+                  <img src="assets/equipe/giovanna.jpg" alt="Giovanna da Rocha Pombo" class="office-team__image">
+                </div>
+                <div class="office-team__body">
+                  <span class="label">Advogada</span>
+                  <h3 class="office-team__name">Giovanna da Rocha Pombo</h3>
+                  <ul class="office-team__list">
+                    <li>Graduada em Direito pela Universidade Positivo de Curitiba</li>
+                    <li>OAB/PR nº 112.002</li>
+                    <li>Especialista em Direito Processual Civil pela Universidade Positivo de Curitiba</li>
+                    <li>Conciliadora e Mediadora formada pelo Conselho Nacional de Justiça (CNJ)</li>
+                    <li>Membro da Comissão de Direito Imobiliário e da Construção da OAB/PR (2025-2027)</li>
+                    <li>Membro da Comissão de Direito Notarial e das Serventias do Poder Judiciário da OAB/PR (2025-2027)</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="office-team__card">
+                <div class="office-team__image-wrap">
+                  <img src="assets/equipe/Diogo.jpg" alt="Diogo Humberto Brustolin" class="office-team__image">
+                </div>
+                <div class="office-team__body">
+                  <span class="label">Advogado</span>
+                  <h3 class="office-team__name">Diogo Humberto Brustolin</h3>
+                  <ul class="office-team__list">
+                    <li>Graduado em Direito pela Pontifícia Universidade Católica do Paraná</li>
+                    <li>OAB/PR nº 128.171</li>
+                    <li>Pós-graduando em Direito</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <div style="margin-top:2.5rem;">
+            <a href="#contato" data-page="contato" class="btn btn--primary btn--lg">Agendar uma consulta</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  PAGE: ÁREAS DE ATUAÇÃO                                  ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<main id="page-areas" class="page" role="main">
+
+  <div class="page-hero" aria-labelledby="areas-page-title">
+    <div class="page-hero__inner">
+      <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+        <a href="#home" data-page="home">Home</a>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        <span>Áreas de Atuação</span>
+      </nav>
+      <h1 id="areas-page-title" class="page-hero__title">Áreas de Atuação</h1>
+      <p class="page-hero__subtitle">Atuação completa em Direito Civil, consultivo e contencioso, com foco em diagnóstico preciso e solução eficiente para cada demanda.</p>
+    </div>
+  </div>
+
+  <section class="section" style="background:var(--cream);">
+    <div class="container">
+      <div class="areas-page__intro" data-reveal>
+        <p>Nosso escritório atua em todas as áreas e especialidades do Direito Civil, tais como, mas não limitadas, a Direito das Pessoas, dos Bens, dos Fatos Jurídicos, das Obrigações, de Empresa, das Coisas, de Família e das Sucessões.</p>
+        <p>Dentro dessas áreas, atuamos tanto no atendimento ao litígio quanto na prevenção, priorizando o melhor e mais célere resultado ao cliente.</p>
+        <p>Nossa atuação é pautada na premissa de que “o Advogado é o primeiro Juiz da causa”. Por isso, os atendimentos do escritório são pautados em aprofundados estudos de caso, a fim de apresentar ao consulente a melhor solução possível para a sua demanda.</p>
+      </div>
+
+      <div class="areas-page__grid areas-page__grid--expanded">
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">01</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Administrativo</h2>
+          <p class="area-detail-card__text">Atuação consultiva e contenciosa em relações administrativas e procedimentos perante órgãos públicos.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Defesas Administrativas</span><span class="topic-tag">Processos Internos</span><span class="topic-tag">Pareceres</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">02</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Empresarial</h2>
+          <p class="area-detail-card__text">Suporte jurídico a empresas em estruturação, gestão de riscos e conflitos de natureza civil e contratual.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Consultoria</span><span class="topic-tag">Operação Empresarial</span><span class="topic-tag">Estratégia</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">03</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Obrigações</h2>
+          <p class="area-detail-card__text">Demandas relacionadas ao cumprimento, inadimplemento e revisão de obrigações civis.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Cobrança</span><span class="topic-tag">Resolução</span><span class="topic-tag">Revisão</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">04</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Societário</h2>
+          <p class="area-detail-card__text">Estruturação e reorganização societária, conflitos entre sócios e formalização de alterações empresariais.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Quadro Societário</span><span class="topic-tag">Acordos</span><span class="topic-tag">Alterações Contratuais</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">05</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Aduaneiro/Marítimo</h2>
+          <p class="area-detail-card__text">Assessoria em questões contratuais, patrimoniais e operacionais ligadas ao comércio exterior e atividade marítima.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Operações</span><span class="topic-tag">Responsabilidade</span><span class="topic-tag">Contratos</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">06</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Família e Sucessões</h2>
+          <p class="area-detail-card__text">Soluções sensíveis e técnicas para conflitos familiares, planejamento sucessório e inventários.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Divórcio</span><span class="topic-tag">Inventário</span><span class="topic-tag">Planejamento</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">07</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Processo Civil</h2>
+          <p class="area-detail-card__text">Atuação estratégica em litígios cíveis, com foco em efetividade processual e segurança jurídica.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Petições</span><span class="topic-tag">Recursos</span><span class="topic-tag">Estratégia</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">08</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Trabalhista</h2>
+          <p class="area-detail-card__text">Assessoria em relações de trabalho e defesa de interesses em demandas trabalhistas correlatas.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Defesas</span><span class="topic-tag">Negociação</span><span class="topic-tag">Passivo</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">09</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Ambiental</h2>
+          <p class="area-detail-card__text">Orientação e defesa em temas patrimoniais e empresariais que envolvam obrigações ambientais.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Licenciamento</span><span class="topic-tag">Responsabilidade</span><span class="topic-tag">Conformidade</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">10</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Imobiliário</h2>
+          <p class="area-detail-card__text">Assessoria completa em negócios imobiliários, regularização, contratos e conflitos possessórios.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Compra e Venda</span><span class="topic-tag">Locação</span><span class="topic-tag">Registro</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">11</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Regularização de Imóveis</h2>
+          <p class="area-detail-card__text">Atuação profunda em pendências documentais, registrais e cartorárias para dar segurança ao patrimônio.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Averbação</span><span class="topic-tag">Retificação</span><span class="topic-tag">Regularização</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">12</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Usucapião Judicial e Extrajudicial</h2>
+          <p class="area-detail-card__text">Condução técnica de procedimentos para reconhecimento da propriedade com agilidade e segurança.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Documentação</span><span class="topic-tag">Cartório</span><span class="topic-tag">Judicial</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">13</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Consumidor</h2>
+          <p class="area-detail-card__text">Defesa de direitos em relações de consumo, vícios, cobranças indevidas e falha na prestação de serviços.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Danos</span><span class="topic-tag">Cobranças</span><span class="topic-tag">Serviços</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">14</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Indenizações</h2>
+          <p class="area-detail-card__text">Atuação em pedidos indenizatórios de natureza material, moral e patrimonial.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Danos Morais</span><span class="topic-tag">Danos Materiais</span><span class="topic-tag">Reparação</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">15</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Responsabilidade Civil</h2>
+          <p class="area-detail-card__text">Análise e defesa em casos de responsabilidade contratual e extracontratual.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Responsabilidade</span><span class="topic-tag">Nexo Causal</span><span class="topic-tag">Reparação</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">16</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Bancário</h2>
+          <p class="area-detail-card__text">Assessoria em conflitos com instituições financeiras, contratos e cobranças.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Revisão</span><span class="topic-tag">Abusividades</span><span class="topic-tag">Negociação</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">17</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Contratos</h2>
+          <p class="area-detail-card__text">Elaboração, revisão e interpretação contratual com foco em prevenção de conflitos.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Elaboração</span><span class="topic-tag">Revisão</span><span class="topic-tag">Rescisão</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">18</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Shopping Center</h2>
+          <p class="area-detail-card__text">Assessoria jurídica para lojistas, empreendimentos e relações contratuais típicas do setor.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Locação</span><span class="topic-tag">Operação</span><span class="topic-tag">Negociação</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">19</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Saúde</h2>
+          <p class="area-detail-card__text">Suporte em conflitos contratuais e patrimoniais relacionados à área da saúde e seus prestadores.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Planos</span><span class="topic-tag">Responsabilidade</span><span class="topic-tag">Cobertura</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">20</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h2 class="area-detail-card__title">Conciliação e Mediação</h2>
+          <p class="area-detail-card__text">Soluções consensuais, humanizadas e eficazes para reduzir desgaste e acelerar resultados.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Acordos</span><span class="topic-tag">Mediação</span><span class="topic-tag">Pacificação</span></div></article>
+        <article class="area-detail-card" data-reveal>
+          <div class="area-detail-card__number" aria-hidden="true">21</div>
+          <div class="area-detail-card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/><circle cx="19" cy="5" r="3"/><path d="M22 5h-3M19 2v3"/></svg></div>
+          <h2 class="area-detail-card__title">Regularização Fundiária</h2>
+          <p class="area-detail-card__text">Atuação na regularização de imóveis urbanos e rurais, garantindo segurança jurídica e adequação documental para que o proprietário obtenha o pleno reconhecimento formal do seu direito sobre o bem.</p>
+          <div class="area-detail-card__topics" aria-label="Temas abordados"><span class="topic-tag">Regularização</span><span class="topic-tag">Registro</span><span class="topic-tag">Propriedade</span></div>
+        </article>
+      </div>
+
+      <div style="text-align:center;margin-top:var(--space-2xl);" data-reveal>
+        <p style="color:var(--gray-600);margin-bottom:var(--space-md);font-size:0.95rem;">Se a sua demanda não estiver listada acima, entre em contato. Nossa equipe fará a análise técnica do caso e indicará o melhor caminho jurídico.</p>
+        <a href="#contato" data-page="contato" class="btn btn--primary">Falar com o escritório</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  PAGE: BLOG / CONTEÚDO                                   ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<main id="page-blog" class="page" role="main">
+  <div class="page-hero" aria-labelledby="blog-page-title">
+    <div class="page-hero__inner">
+      <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+        <a href="#home" data-page="home">Home</a>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        <span>Conteúdo</span>
+      </nav>
+      <h1 id="blog-page-title" class="page-hero__title">Conteúdo Jurídico</h1>
+      <p class="page-hero__subtitle">Temas práticos do escritório apresentados de forma clara, objetiva e visualmente organizada.</p>
+    </div>
+  </div>
+
+  <section class="blog-section section">
+    <div class="container">
+      <div class="blog-placeholder-grid" aria-label="Conteúdos do escritório">
+        <article class="blog-placeholder-card" data-reveal data-expandable>
+          <img src="assets/escritorio/escritorio-1.jpg" alt="Acervo imobiliário do escritório" class="blog-placeholder-card__img blog-placeholder-card__img--real">
+          <div class="blog-placeholder-card__body">
+            <div class="blog-placeholder-card__cat">Imóveis</div>
+            <h3 class="blog-placeholder-card__title">O que é usucapião e quando posso utilizar?</h3>
+            <p class="blog-placeholder-card__excerpt">Entenda os requisitos, prazos e modalidades para regularizar um imóvel por meio da usucapião.</p>
+            <span class="blog-placeholder-card__toggle" aria-hidden="true">
+              Leia mais
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </span>
+          </div>
+          <div class="blog-placeholder-card__expanded">
+            <h4 class="blog-placeholder-card__expanded-title">O que é usucapião?</h4>
+            <p class="blog-placeholder-card__expanded-text">A usucapião é uma forma de aquisição da propriedade imóvel pelo exercício prolongado e contínuo da posse, desde que preenchidos os requisitos legais. Trata-se de um dos instrumentos mais importantes para regularização de imóveis no Brasil, especialmente em situações onde a documentação original foi perdida ou nunca existiu.</p>
+            <p class="blog-placeholder-card__expanded-text">Existem diferentes modalidades — ordinária, extraordinária, especial urbana e rural, entre outras — cada uma com prazos e exigências próprias. O procedimento pode ser feito de forma judicial (na Justiça) ou extrajudicial (diretamente no Cartório de Registro de Imóveis), sendo esta última opção mais ágil quando há concordância de todos os envolvidos.</p>
+            <p class="blog-placeholder-card__expanded-text">Em todos os casos, é fundamental contar com acompanhamento jurídico especializado para coletar a documentação correta, verificar a modalidade aplicável e conduzir o processo com segurança. O escritório Everaldo Pedroso possui expertise nessa área e pode orientar você desde o diagnóstico inicial até o registro definitivo da propriedade.</p>
+            <a href="#contato" data-page="contato" class="blog-placeholder-card__expanded-cta">
+              Consultar sobre usucapião
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="blog-placeholder-card" data-reveal data-reveal-delay="1" data-expandable>
+          <img src="assets/escritorio/reuniao.jpg" alt="Sala de reunião do escritório" class="blog-placeholder-card__img blog-placeholder-card__img--real">
+          <div class="blog-placeholder-card__body">
+            <div class="blog-placeholder-card__cat">Família</div>
+            <h3 class="blog-placeholder-card__title">Divórcio consensual: como funciona e quais são os passos?</h3>
+            <p class="blog-placeholder-card__excerpt">Um guia claro sobre o processo de divórcio extrajudicial e o que é necessário para realizá-lo.</p>
+            <span class="blog-placeholder-card__toggle" aria-hidden="true">
+              Leia mais
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </span>
+          </div>
+          <div class="blog-placeholder-card__expanded">
+            <h4 class="blog-placeholder-card__expanded-title">Como funciona o divórcio consensual?</h4>
+            <p class="blog-placeholder-card__expanded-text">O divórcio consensual é aquele em que ambos os cônjuges estão de acordo com a dissolução do casamento e com os termos que envolvem a separação — como partilha de bens, guarda dos filhos, alimentos e demais questões acessórias. Quando há consenso e não existem filhos menores ou incapazes, o divórcio pode ser realizado diretamente em cartório, sem necessidade de processo judicial.</p>
+            <p class="blog-placeholder-card__expanded-text">O procedimento extrajudicial é mais rápido, menos custoso e menos desgastante para as partes. Para realizá-lo, é necessária a presença de advogado, que acompanhará ambos os cônjuges ou cada um deles separadamente, elaborará a escritura pública de divórcio e providenciará a averbação no registro civil do casamento.</p>
+            <p class="blog-placeholder-card__expanded-text">Quando há filhos menores ou incapazes, ou quando não há acordo pleno entre as partes, o divórcio deverá ser processado judicialmente. O escritório Everaldo Pedroso acompanha ambas as modalidades com foco em soluções que minimizem o desgaste e preservem os laços familiares.</p>
+            <a href="#contato" data-page="contato" class="blog-placeholder-card__expanded-cta">
+              Consultar sobre divórcio
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="blog-placeholder-card" data-reveal data-reveal-delay="2" data-expandable>
+          <img src="assets/escritorio/escritorio-4.jpg" alt="Ambiente institucional do escritório" class="blog-placeholder-card__img blog-placeholder-card__img--real">
+          <div class="blog-placeholder-card__body">
+            <div class="blog-placeholder-card__cat">Sucessões</div>
+            <h3 class="blog-placeholder-card__title">Inventário extrajudicial: vantagens e quando é possível utilizá-lo</h3>
+            <p class="blog-placeholder-card__excerpt">Saiba como funciona o inventário feito em cartório, mais rápido e menos custoso que o judicial.</p>
+            <span class="blog-placeholder-card__toggle" aria-hidden="true">
+              Leia mais
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </span>
+          </div>
+          <div class="blog-placeholder-card__expanded">
+            <h4 class="blog-placeholder-card__expanded-title">O que é o inventário extrajudicial?</h4>
+            <p class="blog-placeholder-card__expanded-text">O inventário extrajudicial é o procedimento realizado diretamente em cartório de notas para partilha dos bens deixados por uma pessoa falecida. Introduzido pela Lei nº 11.441/2007, é uma alternativa mais ágil e econômica ao inventário judicial, e pode ser utilizado quando há consenso entre os herdeiros e o de cujus não deixou testamento.</p>
+            <p class="blog-placeholder-card__expanded-text">Para utilizá-lo, é necessário que todos os herdeiros sejam maiores e capazes, que estejam de acordo com a partilha e que sejam assistidos por advogado. O processo pode ser concluído em semanas, enquanto o inventário judicial pode levar anos dependendo da complexidade e do volume do espólio.</p>
+            <p class="blog-placeholder-card__expanded-text">Quando há herdeiro menor de idade, incapaz, ou discordância entre os herdeiros, o inventário deverá ser judicial. O escritório Everaldo Pedroso conduz ambas as modalidades, orientando as famílias desde o levantamento do espólio até a expedição do formal de partilha.</p>
+            <a href="#contato" data-page="contato" class="blog-placeholder-card__expanded-cta">
+              Consultar sobre inventário
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  PAGE: CONTATO                                           ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<main id="page-contato" class="page" role="main">
+
+  <div class="page-hero" aria-labelledby="contato-page-title">
+    <div class="page-hero__inner">
+      <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+        <a href="#home" data-page="home">Home</a>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        <span>Contato</span>
+      </nav>
+      <h1 id="contato-page-title" class="page-hero__title">Entre em Contato</h1>
+      <p class="page-hero__subtitle">Tire suas dúvidas ou agende uma consulta. Respondemos em até 24 horas úteis.</p>
+    </div>
+  </div>
+
+  <section class="contact-page section">
+    <div class="container">
+      <div class="contact-page__grid">
+
+        <!-- Info -->
+        <aside data-reveal>
+          <span class="label">Canais de Atendimento</span>
+          <span class="gold-line" aria-hidden="true"></span>
+          <h2 class="heading-1 contact-info__title">Fale com o escritório</h2>
+
+          <div class="contact-info__cards">
+            <div class="contact-card">
+              <div class="contact-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.06 6.06l1.27-.83a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-card__label">Telefone</div>
+                <div class="contact-card__value"><a href="tel:+554130240407">(41) 3024-0407</a></div>
+                <div class="contact-card__note">Seg–Sex, 8h às 18h</div>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <div class="contact-card__label">E-mail</div>
+                <div class="contact-card__value"><a href="mailto:contato@everaldopedroso.adv.br">contato@everaldopedroso.adv.br</a></div>
+                <div class="contact-card__note">Resposta em até 24h úteis</div>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-card__label">Localização</div>
+                <div class="contact-card__value">Praça Zacarias nº 80 – 8º andar – Conjuntos 806/807 - Ed. João Alfredo - Centro - Curitiba/PR - CEP 80020-080</div>
+                <div class="contact-card__note">Atendimento presencial com hora marcada</div>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <div>
+                <div class="contact-card__label">OAB</div>
+                <div class="contact-card__value">OAB/PR Nº 82.734</div>
+                <div class="contact-card__note">Advogado inscrito e habilitado</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-whatsapp-block" style="margin-top:1.5rem;">
+            <span class="label" style="color:var(--gold-light);display:block;margin-bottom:0.5rem;">Atendimento Rápido</span>
+            <p>Prefere resolver pelo WhatsApp? Envie uma mensagem e retornamos o mais breve possível.</p>
+            <a href="https://wa.me/5541991237550?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20o%20escritório%20Everaldo%20Pedroso%20Advocacia." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              Iniciar conversa no WhatsApp
+            </a>
+          </div>
+        </aside>
+
+        <!-- Mapa -->
+        <div class="contact-form-wrap contact-map-wrap" data-reveal data-reveal-delay="2">
+          <h2 class="heading-2">Onde estamos</h2>
+          <p class="body-md">Visite o escritório na região central de Curitiba. O mapa abaixo facilita a localização do edifício.</p>
+          <div class="contact-map-embed">
+            <iframe
+              title="Mapa do escritório Everaldo Pedroso Advocacia"
+              src="https://www.google.com/maps?q=Pra%C3%A7a%20Zacarias%2080%20Curitiba%20PR&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="contact-map-address">
+            Praça Zacarias nº 80 – 8º andar – Conjuntos 806/807 - Ed. João Alfredo - Centro - Curitiba/PR - CEP 80020-080
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  FOOTER (global)                                         ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <!-- Brand -->
+      <div>
+        <div class="footer__brand-name">Everaldo Pedroso</div>
+        <div class="footer__brand-sub">Advocacia</div>
+        <p class="footer__brand-text">Assessoria jurídica especializada em Direito Civil, com atuação em regularização de imóveis, família, sucessões e questões patrimoniais. Curitiba/PR.</p>
+        <div class="footer__social" style="margin-top:1.5rem;" aria-label="Redes sociais">
+          <a href="#" class="footer__social-link" aria-label="Instagram" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="LinkedIn" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://wa.me/5541991237550" class="footer__social-link" aria-label="WhatsApp" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <div class="footer__col-title">O Escritório</div>
+        <ul class="footer__links">
+          <li><a href="#home" data-page="home" class="footer__link">Home</a></li>
+          <li><a href="#escritorio" data-page="escritorio" class="footer__link">Sobre o Escritório</a></li>
+          <li><a href="#areas" data-page="areas" class="footer__link">Áreas de Atuação</a></li>
+          <li><a href="#blog" data-page="blog" class="footer__link">Conteúdo Jurídico</a></li>
+          <li><a href="#contato" data-page="contato" class="footer__link">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- Áreas -->
+      <div>
+        <div class="footer__col-title">Especialidades</div>
+        <ul class="footer__links">
+          <li><a href="#areas" data-page="areas" class="footer__link">Regularização de Imóveis</a></li>
+          <li><a href="#areas" data-page="areas" class="footer__link">Direito de Família</a></li>
+          <li><a href="#areas" data-page="areas" class="footer__link">Sucessões e Inventário</a></li>
+          <li><a href="#areas" data-page="areas" class="footer__link">Contratos e Obrigações</a></li>
+          <li><a href="#areas" data-page="areas" class="footer__link">Direito Empresarial</a></li>
+        </ul>
+      </div>
+
+      <!-- Contato -->
+      <div>
+        <div class="footer__col-title">Contato</div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Curitiba, Paraná — Brasil
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.06 6.06l1.27-.83a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <a href="tel:+554130240407" class="footer__link">(41) 3024-0407</a>
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:contato@everaldopedroso.adv.br" class="footer__link">contato@everaldopedroso.adv.br</a>
+        </div>
+        <div class="footer__contact-item" style="margin-top:0.3rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          OAB/PR Nº 82.734
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>&copy; 2025 Everaldo Pedroso Advocacia. Todos os direitos reservados.</span>
+      <span class="footer__bottom-oab">OAB/PR Nº 82.734</span>
+      <span style="font-size:0.72rem;">Este site não constitui consultoria jurídica. Para atendimento individualizado, entre em contato.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/5541991237550?text=Olá!%20Gostaria%20de%20informações%20sobre%20consultoria%20jurídica." target="_blank" rel="noopener noreferrer" class="whatsapp-fab" aria-label="Abrir WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
