@@ -61,8 +61,12 @@
   // ── NAVBAR ─────────────────────────────────────────────────
   const navbar = document.getElementById('navbar');
 
+  // On pages without a hero section (static SEO pages), keep navbar always dark
+  const hasHero = document.querySelector('.hero, .seo-hero');
+  const alwaysDark = hasHero && hasHero.classList.contains('seo-hero');
+
   function handleScroll() {
-    if (window.scrollY > 60) {
+    if (alwaysDark || window.scrollY > 60) {
       navbar.classList.add('navbar--scrolled');
     } else {
       navbar.classList.remove('navbar--scrolled');
